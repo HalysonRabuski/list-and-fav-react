@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render header component like snapshot 1`] = `
+<header
+  className="ant-layout-header sc-bdvvaa cWca-DQ"
+  data-testid="header"
+>
+  <span
+    className="ant-typography sc-gsDJrp fAuBiD"
+    data-testid="title"
+    style={
+      Object {
+        "WebkitLineClamp": undefined,
+      }
+    }
+  >
+    List n' Favorite
+  </span>
+  <ul
+    className="ant-menu ant-menu-light ant-menu-root ant-menu-horizontal"
+    onMouseEnter={[Function]}
+    onTransitionEnd={[Function]}
+    role="menu"
+    style={Object {}}
+  >
+    <li
+      className="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      role="menuitem"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup="true"
+        className="ant-menu-submenu-title"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        role="button"
+        style={Object {}}
+      >
+        <span>
+          ···
+        </span>
+        <i
+          className="ant-menu-submenu-arrow"
+        />
+      </div>
+    </li>
+    <li
+      className="ant-menu-submenu ant-menu-submenu-horizontal"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      role="menuitem"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup="true"
+        className="ant-menu-submenu-title"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        role="button"
+        style={Object {}}
+      >
+        <span
+          aria-label="unordered-list"
+          className="anticon anticon-unordered-list"
+          role="img"
+        >
+          <svg
+            aria-hidden="true"
+            data-icon="unordered-list"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M912 192H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 284H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 284H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM104 228a56 56 0 10112 0 56 56 0 10-112 0zm0 284a56 56 0 10112 0 56 56 0 10-112 0zm0 284a56 56 0 10112 0 56 56 0 10-112 0z"
+            />
+          </svg>
+        </span>
+        <span>
+          Characters List
+        </span>
+        <i
+          className="ant-menu-submenu-arrow"
+        />
+      </div>
+    </li>
+    <li
+      className="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      role="menuitem"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup="true"
+        className="ant-menu-submenu-title"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        role="button"
+        style={Object {}}
+      >
+        <span>
+          ···
+        </span>
+        <i
+          className="ant-menu-submenu-arrow"
+        />
+      </div>
+    </li>
+    <li
+      className="ant-menu-item"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      role="menuitem"
+      style={Object {}}
+    >
+      <span
+        aria-label="login"
+        className="anticon anticon-login ant-menu-item-icon"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="login"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <defs>
+            <style />
+          </defs>
+          <path
+            d="M521.7 82c-152.5-.4-286.7 78.5-363.4 197.7-3.4 5.3.4 12.3 6.7 12.3h70.3c4.8 0 9.3-2.1 12.3-5.8 7-8.5 14.5-16.7 22.4-24.5 32.6-32.5 70.5-58.1 112.7-75.9 43.6-18.4 90-27.8 137.9-27.8 47.9 0 94.3 9.3 137.9 27.8 42.2 17.8 80.1 43.4 112.7 75.9 32.6 32.5 58.1 70.4 76 112.5C865.7 417.8 875 464.1 875 512c0 47.9-9.4 94.2-27.8 137.8-17.8 42.1-43.4 80-76 112.5s-70.5 58.1-112.7 75.9A352.8 352.8 0 01520.6 866c-47.9 0-94.3-9.4-137.9-27.8A353.84 353.84 0 01270 762.3c-7.9-7.9-15.3-16.1-22.4-24.5-3-3.7-7.6-5.8-12.3-5.8H165c-6.3 0-10.2 7-6.7 12.3C234.9 863.2 368.5 942 520.6 942c236.2 0 428-190.1 430.4-425.6C953.4 277.1 761.3 82.6 521.7 82zM395.02 624v-76h-314c-4.4 0-8-3.6-8-8v-56c0-4.4 3.6-8 8-8h314v-76c0-6.7 7.8-10.5 13-6.3l141.9 112a8 8 0 010 12.6l-141.9 112c-5.2 4.1-13 .4-13-6.3z"
+          />
+        </svg>
+      </span>
+      <span>
+        <a
+          href="/signin"
+          onClick={[Function]}
+        >
+          Login
+        </a>
+      </span>
+    </li>
+    <li
+      className="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      role="menuitem"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup="true"
+        className="ant-menu-submenu-title"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        role="button"
+        style={Object {}}
+      >
+        <span>
+          ···
+        </span>
+        <i
+          className="ant-menu-submenu-arrow"
+        />
+      </div>
+    </li>
+    <li
+      className="ant-menu-item"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      role="menuitem"
+      style={Object {}}
+    >
+      <span
+        aria-label="edit"
+        className="anticon anticon-edit ant-menu-item-icon"
+        role="img"
+      >
+        <svg
+          aria-hidden="true"
+          data-icon="edit"
+          fill="currentColor"
+          focusable="false"
+          height="1em"
+          viewBox="64 64 896 896"
+          width="1em"
+        >
+          <path
+            d="M257.7 752c2 0 4-.2 6-.5L431.9 722c2-.4 3.9-1.3 5.3-2.8l423.9-423.9a9.96 9.96 0 000-14.1L694.9 114.9c-1.9-1.9-4.4-2.9-7.1-2.9s-5.2 1-7.1 2.9L256.8 538.8c-1.5 1.5-2.4 3.3-2.8 5.3l-29.5 168.2a33.5 33.5 0 009.4 29.8c6.6 6.4 14.9 9.9 23.8 9.9zm67.4-174.4L687.8 215l73.3 73.3-362.7 362.6-88.9 15.7 15.6-89zM880 836H144c-17.7 0-32 14.3-32 32v36c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-36c0-17.7-14.3-32-32-32z"
+          />
+        </svg>
+      </span>
+      <span>
+        <a
+          href="/signup"
+          onClick={[Function]}
+        >
+          Sign Up
+        </a>
+      </span>
+    </li>
+    <li
+      className="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      role="menuitem"
+      style={
+        Object {
+          "position": "absolute",
+          "visibility": "hidden",
+        }
+      }
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup="true"
+        className="ant-menu-submenu-title"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        role="button"
+        style={Object {}}
+      >
+        <span>
+          ···
+        </span>
+        <i
+          className="ant-menu-submenu-arrow"
+        />
+      </div>
+    </li>
+  </ul>
+</header>
+`;

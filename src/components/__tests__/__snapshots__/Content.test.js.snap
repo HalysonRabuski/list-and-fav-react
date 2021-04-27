@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render content component with its children 1`] = `
+<main
+  className="ant-layout-content sc-bdvvaa gombUE"
+  data-testid="content"
+>
+  <p>
+    test
+  </p>
+</main>
+`;

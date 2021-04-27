@@ -1,23 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import "antd/dist/antd.css";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Content from "./components/Content";
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
+import routes from "./routes";
+import { useAuth } from "./services/customHooks/useAuth";
 
 function App() {
+  const context = useAuth();
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <h1>{context?signed[0]}</h1> */}
+      <Router>
+        <Header />
+        <Content>
+          <Switch>
+            {routes.map((route) =>
+              route.private && !context.signed ? (
+                <Redirect to="/signin" />
+              ) : (
+                <Route
+                  key={route.component}
+                  path={route.path}
+                  component={route.component}
+                />
+              )
+            )}
+          </Switch>
+        </Content>
+        <Footer />
+      </Router>
     </div>
   );
 }
