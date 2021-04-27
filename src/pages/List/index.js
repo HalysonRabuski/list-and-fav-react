@@ -198,8 +198,8 @@ function List(props) {
 
   return (
     <ListContainer>
-      <h1>Lista</h1>
-      <h2>Lista de personagens</h2>
+      <h1>List</h1>
+      <h2>Characters List</h2>
       {filters.map((filter) => (
         <CustomSwitch
           checked={filter.active}
